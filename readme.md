@@ -176,7 +176,7 @@ create table neuedu_payinfo(
   PRIMARY KEY(`id`)
  )ENGINE=InnoDB DEFAULT CHARSET=UTF8
 ```
-### 地址表
+### 地址表a
 ```
 create table neuedu_shipping(
  `id` int(11) not null auto_increment comment '地址id', 
