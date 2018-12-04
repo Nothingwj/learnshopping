@@ -52,3 +52,10 @@
 ###### build/ 忽略build/目录下的所有文件
 ###### doc/*.txt 会忽略doc/notes.txt 但不包括doc/server/arch.txt
 ##### git add . 提交所有
+## 远程分支合并
+#### 远程合并dev分支
+##### git checkout dev 切换到dev分支上
+##### git pull origin dev 拉取远程dev上的内容
+##### git checkout master 切换到master分支上
+##### git merge dev 合并dev分支
+##### git push origin master 推送到远程master分支上
