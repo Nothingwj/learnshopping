@@ -51,4 +51,4 @@
 ###### /TODO 仅仅忽略项目根目录下的TODO文件，不包括subdir/TODO
 ###### build/ 忽略build/目录下的所有文件
 ###### doc/*.txt 会忽略doc/notes.txt 但不包括doc/server/arch.txt
-#####git add . 提交所有
+##### git add . 提交所有
