@@ -56,11 +56,7 @@
 ##### 阿里云部署
 ------------------------------------
 ## 数据库设计
-<<<<<<< HEAD
-###创建数据库
-=======
 ### 创建数据库
->>>>>>> dev
 ```
  create database ilearnshopping;
  use ilearnshopping;
@@ -180,11 +176,7 @@ create table neuedu_payinfo(
   PRIMARY KEY(`id`)
  )ENGINE=InnoDB DEFAULT CHARSET=UTF8
 ```
-<<<<<<< HEAD
-### 地址表a
-=======
 ### 地址表
->>>>>>> dev
 ```
 create table neuedu_shipping(
  `id` int(11) not null auto_increment comment '地址id', 
@@ -201,9 +193,7 @@ create table neuedu_shipping(
  `update_time` datetime default null comment '最后一次更新时间',
   PRIMARY KEY(`id`)
  )ENGINE=InnoDB DEFAULT CHARSET=UTF8
-<<<<<<< HEAD
 ```
-=======
 ```
 ### 项目架构--四层架构
 ```
@@ -236,4 +226,4 @@ create table neuedu_shipping(
  @Controller前端显示页面
  @RestController注解相当于@ResponseBody ＋ @Controller合在一起的作用
 ```
->>>>>>> dev
+
