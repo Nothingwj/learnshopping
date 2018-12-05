@@ -194,7 +194,6 @@ create table neuedu_shipping(
   PRIMARY KEY(`id`)
  )ENGINE=InnoDB DEFAULT CHARSET=UTF8
 ```
-```
 ### 项目架构--四层架构
 ```
  视图层：页面
