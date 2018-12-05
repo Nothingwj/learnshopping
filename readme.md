@@ -208,14 +208,14 @@ create table neuedu_shipping(
  依赖jar包：mysql驱动包和mybatis-generator依赖包
  插件mybatis-generator-maven-plugin
  配置文件(db.properties)：封装数据库的参数
- 配置generatorConfig.xml
+ 配置generatorConfig.xml:配置mysql的驱动包jar,实体类,配置sql文件,生成Dao接口,配置数据表
  生成Dao接口，实体类，映射文件
 ```
 ### 搭建ssm框架
 ```
  加载依赖的jar包
- 配置spring.xml
- 配置springmvc.xml
+ 配置spring.xml:开启注解,开启基于注解的实物配置,分页插件
+ 配置springmvc.xml:开启注解,配置控制前可以返回json格式的数据,视图解析器,文件上传视图解析器
  配置mybatis-config.xml
  新版本的web.xml替换旧版本
  
