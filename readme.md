@@ -56,7 +56,11 @@
 ##### 阿里云部署
 ------------------------------------
 ## 数据库设计
+<<<<<<< HEAD
 ###创建数据库
+=======
+### 创建数据库
+>>>>>>> dev
 ```
  create database ilearnshopping;
  use ilearnshopping;
@@ -176,7 +180,11 @@ create table neuedu_payinfo(
   PRIMARY KEY(`id`)
  )ENGINE=InnoDB DEFAULT CHARSET=UTF8
 ```
+<<<<<<< HEAD
 ### 地址表a
+=======
+### 地址表
+>>>>>>> dev
 ```
 create table neuedu_shipping(
  `id` int(11) not null auto_increment comment '地址id', 
@@ -193,4 +201,39 @@ create table neuedu_shipping(
  `update_time` datetime default null comment '最后一次更新时间',
   PRIMARY KEY(`id`)
  )ENGINE=InnoDB DEFAULT CHARSET=UTF8
+<<<<<<< HEAD
 ```
+=======
+```
+### 项目架构--四层架构
+```
+ 视图层：页面
+ 控制层controller：接收视图层传递的数据，负责调用业务逻辑层
+ 业务逻辑层service：处理业务逻辑 （接口和实现类）
+ Dao层：和数据库交互，主要对数据库进行增删改查
+ 视图层调用控制层，控制层调用业务逻辑层，业务逻辑层调用Dao层
+```
+### mybatis-generator插件
+```
+ 依赖jar包：mysql驱动包和mybatis-generator依赖包
+ 插件mybatis-generator-maven-plugin
+ 配置文件(db.properties)：封装数据库的参数
+ 配置generatorConfig.xml
+ 生成Dao接口，实体类，映射文件
+```
+### 搭建ssm框架
+```
+ 加载依赖的jar包
+ 配置spring.xml
+ 配置springmvc.xml
+ 配置mybatis-config.xml
+ 新版本的web.xml替换旧版本
+ 
+ 配置tomcat
+ 
+ @RestController和@Controller的区别
+ @RestController返回前端页面是json数据
+ @Controller前端显示页面
+ @RestController注解相当于@ResponseBody ＋ @Controller合在一起的作用
+```
+>>>>>>> dev
