@@ -52,11 +52,18 @@
     <version>1.3.0</version>
     </dependency>
     <!--数据库连接池-->
+    <!-- druid -->
     <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.0.7</version>
+    </dependency>
+    <!--数据库连接池-->
+    <!--<dependency>
     <groupId>com.mchange</groupId>
     <artifactId>c3p0</artifactId>
     <version>0.9.5</version>
-    </dependency>
+    </dependency>-->
     <!--spring核心依赖-->
     <dependency>
     <groupId>org.springframework</groupId>
@@ -177,6 +184,7 @@
     <artifactId>commons-configuration</artifactId>
     <version>1.10</version>
     </dependency>
+    <!--提供了常用的校验方法-->
     <dependency>
     <groupId>commons-lang</groupId>
     <artifactId>commons-lang</artifactId>
