@@ -106,7 +106,7 @@ public class UserServiceImpl implements IUserService {
         }
         //step3:服务端生成一个token保存并将token返回给客户端(UUID随机生成唯一字符串)
         String forgetToken=UUID.randomUUID().toString();
-        //guava cache 谷歌的guava缓存
+        //guava cache 谷歌的guava缓存.
         return null;
     }
 }
